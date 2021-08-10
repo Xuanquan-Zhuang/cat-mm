@@ -34,13 +34,24 @@
 				"pagePath": "pages/tabbar/home",
 				"iconPath": "static/tabbar/tab-home.png",
 				"selectedIconPath": "static/tabbar/tab-home-current.png",
-				"text": "全部"
+				"text": "首页"
 			},
 			{
 				"pagePath": "pages/tabbar/family",
 				"iconPath": "static/tabbar/tab-cate.png",
 				"selectedIconPath": "static/tabbar/tab-cate-current.png",
 				"text": "猫窝"
+			},
+			{
+				"pagePath": "pages/tabbar/user",
+				"iconPath": "static/tabbar/tab-user.png",
+				"selectedIconPath": "static/tabbar/tab-user-current.png"
+			},
+			{
+				"pagePath": "pages/tabbar/user",
+				"iconPath": "static/tabbar/tab-user.png",
+				"selectedIconPath": "static/tabbar/tab-user-current.png",
+				"text": "消息"
 			},
 			{
 				"pagePath": "pages/tabbar/user",

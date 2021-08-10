@@ -8,10 +8,19 @@
 			</view>
 			
 		</view>
+		
+		<GalleryMoment></GalleryMoment>
 	</view>
 </template>
 
 <script>
+	import GalleryMoment from '../gallery/moment.vue'
+	
+	export default {
+		components: {
+			GalleryMoment
+		}
+	}
 </script>
 
 <style>
