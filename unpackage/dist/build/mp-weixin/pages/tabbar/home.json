@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "全部",
+  "usingComponents": {
+    "gallery-moment": "/pages/gallery/moment"
+  }
+}

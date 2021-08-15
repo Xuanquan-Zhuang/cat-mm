@@ -3,21 +3,59 @@
 		
 		<view class="family-box">
 			<image class="family-avatar" src="../../static/logo.png"></image>
-			<text class="family-name">庄庄家</text>
+			<text class="family-name">{{name}}</text>
 		</view>
 		
 		<image class="video-preview"></image>
 		
 		<view class="like-container">
 			<image class="like-icon" src="../../static/tabbar/tab-cart-current.png"/>
-			<text class="like-count">2222</text>
+			<text class="like-count">{{like}}</text>
 		</view>
+		
+		<view class="tag-container">{{tags}}</view>
+		
+		<view class="description">{{desc}}</view>
 	</view>
 </template>
 
 <script>
 	export default {
-		name: "GalleryMoment"
+		name: "GalleryMoment",
+		props: {
+			// 头像
+			icon: {
+				type: String,
+				default: "--"
+			},
+			// 猫窝名称
+			name: {
+				type: String,
+				default: "--"
+			},
+			// 上传时间
+			uploadTime: {
+				type: String,
+				default: "未知"
+			},
+			// 视频预览图
+			preview: {
+				type: String
+			},
+			// 点赞数
+			like: {
+				type: Number,
+				default: 0
+			},
+			// 标签
+			tags: {
+				type: Array
+			},
+			// 描述
+			desc: {
+				type: String
+			}
+		}
 	}
 </script>
 
@@ -76,5 +114,15 @@
 	.like-count {
 		font-size: 20rpx;
 		margin-left: 10rpx;
+	}
+	
+	.tag-container {
+		font-size: 20rpx;
+		color: #000000;
+	}
+	
+	.description {
+		font-size: 20rpx;
+		color: #8F8F94;
 	}
 </style>

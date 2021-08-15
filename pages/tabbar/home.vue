@@ -9,7 +9,19 @@
 			
 		</view>
 		
-		<GalleryMoment></GalleryMoment>
+		<scroll-view>
+			<view v-for="(item, index) in list">
+				<GalleryMoment
+					v-bind:icon="item.iconUrl"
+					v-bind:name="item.familyName"
+					v-bind:uploadTime="item.uploadTime"
+					v-bind:like="item.like"
+					v-bind:tags="item.tags"
+					v-bind:desc="item.description"
+				/>
+			</view>
+		</scroll-view>
+		
 	</view>
 </template>
 
@@ -19,6 +31,26 @@
 	export default {
 		components: {
 			GalleryMoment
+		},
+		data() {
+			return {
+				list: [
+					{
+						iconUrl: "",
+						familyName: "aaa",
+						like: "22",
+						tags: "['aa', 'bb']",
+						description: "这是个描述"
+					},
+					{
+						iconUrl: "",
+						familyName: "aaa",
+						like: "22",
+						tags: "['aa', 'bb']",
+						description: "这是个描述"
+					}
+				]
+			}
 		}
 	}
 </script>

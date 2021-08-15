@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/tabbar/home",
+    "pages/tabbar/family",
+    "pages/tabbar/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#ff536f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home",
+        "iconPath": "static/tabbar/tab-home.png",
+        "selectedIconPath": "static/tabbar/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/family",
+        "iconPath": "static/tabbar/tab-cate.png",
+        "selectedIconPath": "static/tabbar/tab-cate-current.png",
+        "text": "猫窝"
+      },
+      {
+        "pagePath": "pages/tabbar/user",
+        "iconPath": "static/tabbar/tab-user.png",
+        "selectedIconPath": "static/tabbar/tab-user-current.png"
+      },
+      {
+        "pagePath": "pages/tabbar/user",
+        "iconPath": "static/tabbar/tab-user.png",
+        "selectedIconPath": "static/tabbar/tab-user-current.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabbar/user",
+        "iconPath": "static/tabbar/tab-user.png",
+        "selectedIconPath": "static/tabbar/tab-user-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
