@@ -22,9 +22,9 @@
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -41,7 +41,7 @@
   "compileType": "miniprogram",
   "libVersion": "",
   "appid": "wxf5736b54b250ec6c",
-  "projectname": "%E4%BA%91%E5%90%B8%E5%96%B5",
+  "projectname": "云吸喵",
   "condition": {
     "search": {
       "list": []

@@ -38,15 +38,19 @@
 					{
 						iconUrl: "",
 						familyName: "aaa",
-						like: "22",
-						tags: "['aa', 'bb']",
+						uploadTime: 1629643582000,
+						duration: 36000,
+						like: 22,
+						tags: ['aa', 'bb'],
 						description: "这是个描述"
 					},
 					{
 						iconUrl: "",
 						familyName: "aaa",
-						like: "22",
-						tags: "['aa', 'bb']",
+						uploadTime: 1629643582000,
+						duration: 36000,
+						like: 22,
+						tags: ['aa', 'bb'],
 						description: "这是个描述"
 					}
 				]
@@ -61,6 +65,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		background-color: #FFFFFF;
 	}
 	
 	.top-box {
@@ -70,6 +75,7 @@
 		justify-content: row;
 		align-items: center;
 		margin-top: 10rpx;
+		background-color: #F1F1F1;
 	}
 	
 	.search-box {
